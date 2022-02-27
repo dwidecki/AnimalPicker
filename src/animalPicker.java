@@ -17,6 +17,11 @@ public class animalPicker {
 			valid = true;
 			System.out.println("  |\\---/|\n   | ,_, |\n    \\_`_/-..----.\n ___/ `   \' ,\"\"+ \\  sk\n(__...\'   __\\    |`.___.\';\n  (_,...\'(_,.`__)/\'.....+");
 		}
+		
+		else if (userInput.equalsIgnoreCase("fish")) {
+			valid = true;
+			System.out.println("    /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´");
+		}
 		else {
 			System.out.println("ERROR: Invalid Input!");
 		}
