@@ -10,12 +10,12 @@ public class animalPicker {
 
 		if (userInput.equalsIgnoreCase("dog")) {
 			valid = true;
-			System.out.println("DOG ASCII ART HERE");
+			System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
 		}
 
 		else if (userInput.equalsIgnoreCase("cat")) {
 			valid = true;
-			System.out.println("CAT ASCII ART HERE");
+			System.out.println("  |\\---/|\n   | ,_, |\n    \\_`_/-..----.\n ___/ `   \' ,\"\"+ \\  sk\n(__...\'   __\\    |`.___.\';\n  (_,...\'(_,.`__)/\'.....+");
 		}
 		else {
 			System.out.println("ERROR: Invalid Input!");
